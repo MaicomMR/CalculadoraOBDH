@@ -2,6 +2,15 @@ body {
     margin: 0;
     font-family: 'Asap', sans-serif;
 }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #45a049;
+    color: white;
+    text-align: center;
+ }
 
 .caixa_mestre {
     width: 100%;
