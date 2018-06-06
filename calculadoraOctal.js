@@ -47,6 +47,10 @@ document.getElementById("calcOctal").addEventListener("click", () => {
 
     arrayBinario = binario.split("").reverse();
 
+
+    while ((arrayBinario.length % 4) > 0) {
+        arrayBinario.unshift("0");
+    }
     var index = arrayBinario.length;
     var final = index - 4;
     var arrayResultadoHexa = [];
